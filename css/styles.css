@@ -1,0 +1,128 @@
+body {
+  margin: 1.5em;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero-img {
+  background: url("../img/red shoe.jpg") 20% 20%;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+}
+
+.logo {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header svg {
+  width: 2.3;
+  margin-top: -0.6em;
+  cursor: pointer;
+}
+
+section.hero {
+  color: white;
+  height: 90vh;
+}
+
+section.hero img {
+  position: absolute;
+  width: 145px;
+  top: 85%;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+
+.subhead {
+  font-size: 30px;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  text-transform: uppercase;
+  transform: translateX(100%);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  margin-top: 70px;
+
+  margin-left: 50px;
+}
+nav a {
+  color: black;
+  line-height: 2;
+  padding: 2px;
+}
+nav a:hover {
+  background: rgb(235, 235, 235);
+}
+
+.more-info p {
+  margin: 2px;
+}
+h3 {
+  margin: 2px;
+}
+.discount {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+section.shop a {
+  color: white;
+  padding: 3px;
+  margin: 10p;
+}
+section.shop {
+  text-align: center;
+  background: red;
+  padding: 2px;
+}
+
+section.shop a:hover {
+  background: rgb(235, 235, 235);
+}
+
+footer {
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav svg.close {
+  float: right;
+  margin: 5px;
+  width: 35px;
+  z-index: 999;
+}
