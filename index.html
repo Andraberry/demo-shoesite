@@ -102,7 +102,7 @@
             </div>
         </section>
         <section class="shop">
-            <h6>Shop for:</h6>
+            <h4>Shop for:</h4>
             <a href="#">WOMEN</a>
             <a href="#">MEN</a>
             <a href="#">KIDS</a>
@@ -110,6 +110,18 @@
         <footer>Find Your Next Pair of Shoes at PoppinsShoes</footer>
     </div>
 </body>
+<script>
+    const menu = document.querySelector('.menu')
+    const close = document.querySelector('.close')
+    const nav = document.querySelector('nav')
 
+    menu.addEventListener('click', () => {
+        nav.classList.add('open-nav')
+    })
+
+    close.addEventListener('click', () => {
+        nav.classList.remove('open-nav')
+    })
+</script>
 
 </html>
